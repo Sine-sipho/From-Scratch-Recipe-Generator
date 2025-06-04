@@ -3,42 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="src/style.css" rel="css/stylesheet" />
+    <link href="src/style.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Recipe Generator</title>
   </head>
   <body>
-    <header>Recipe Generator</header>
-    <main>
-      <form class="search-form">
-        <div class="form-container">
-          <input
-            type="text"
-            placeholder="Ask me for a recipe..."
-            autofocus
-            autocomplete="off"
-            required
-            class="text-input"
-          />
-          <input type="submit" class="button" />
+    <div class="container">
+      <header>
+        <h1 class="heading">Recipe Generator</h1>
+      </header>
+      <main>
+        <form class="search-form">
+          <div class="form-container">
+            <input
+              type="text"
+              placeholder="Ask me for a recipe..."
+              autofocus
+              autocomplete="off"
+              required
+              class="text-input"
+            />
+            <input type="submit" class="button" />
+          </div>
+        </form>
+        <div class="request">
+          <p>This is my poem</p>
+          <p>Recipe</p>
         </div>
-      </form>
-      <div class="request"></div>
-    </main>
-    <footer>
-      <p>
-        This project is created by
-        <a href="https://github.com/Sine-sipho" target="_blank"
-          >Sinesipho Siyaka</a
-        >
-        and is
-        <a href="https://github.com/Sine-sipho/Meteo" target="_blank"
-          >open-sourced-on-GitHub</a
-        >
-        and <a href="#" target="_blank">Netlify</a>
-      </p>
-    </footer>
+      </main>
+      <footer>
+        <p>
+          This project is created by
+          <a href="https://github.com/Sine-sipho" target="_blank"
+            >Sinesipho Siyaka</a
+          >
+          and is
+          <a
+            href="https://github.com/Sine-sipho/From-Scratch-Recipe-Generator"
+            target="_blank"
+            >open-sourced-on-GitHub</a
+          >
+          and
+          <a href="https://scratchrecipes.netlify.app/" target="_">Netlify</a>
+        </p>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
