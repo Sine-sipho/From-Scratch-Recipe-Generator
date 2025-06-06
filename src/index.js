@@ -24,7 +24,7 @@ const getInputValue = (event) => {
   element.classList.add("hidden");
 
   new Typewriter(".query", {
-    strings: "Please be patient, we are currently generating your recipe.",
+    strings: "Please be patient, we are currently preparing your recipe.",
     autoStart: true,
     delay: 10,
     cursor: null,
